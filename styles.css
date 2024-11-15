@@ -1,0 +1,52 @@
+body{
+    /*Center all elements both horizontally and vertically*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /*Set the height of thte body to fill the entire viewport*/
+    height: 100vh;
+    /*Remove any default margin to center content more precisely */
+    margin: 0;
+    /*font*/
+    font-family: Arial, sans-serif;
+    /*Light background color for a soft appearance*/
+    background-color: #f8f9fa;
+}
+
+.game-container{
+    /*Center-align all text inside the container */
+    text-align:center;
+}
+
+/*Styling for the buttons that represent rock, paper, and scissors*/
+button{
+    /*Add padding to make the buttons Larger and easier to click*/
+    padding: 10px 20px;
+    /*Space each button slightly*/
+    margin: 5px;
+    /*Increase font size for better readability*/
+    font-size: 18px;
+    /*Change the cursor to indicate it's clickable*/
+    cursor: pointer;
+    /*Remove default border for a cleaner look*/
+    border:none;
+    /*Set background color to a blue shade*/
+    background-color: #007bff;
+    /*Make button text white for better contrast*/
+    color:white;
+    /*Round the corners of the buttons*/
+    border-radius: 5px;
+}
+
+/*Add a hover effect to buttons to improve user experience*/
+button:hover{
+    /*Darken the background color when hovering*/
+    background-color: #0056b3;
+}
+
+/*Styling for the result display area*/
+#result{
+    /*Add space above the result to separate it from buttons*/
+    margin-top: 20px;
+    font-size:20px;
+}
